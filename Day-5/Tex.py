@@ -5,7 +5,7 @@ def changeCharacter(line, isOpeningQuote):
     # Iterate over each character in the line
     for char in line:
         if char == '"':  # If the character is a double-quote
-            if isOpeningQuote:
+            if isOpeningQuote:      
                 result.append("``")  # Replace with opening TeX-style quotes
             else:
                 result.append("''")  # Replace with closing TeX-style quotes
