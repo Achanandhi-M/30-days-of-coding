@@ -1,0 +1,28 @@
+UPDATE table_name
+SET column_name = new_value
+WHERE condition;
+
+UPDATE employees
+SET salary=6000
+WHERE id=2;
+--------------------------------
+SELECT column1, column2
+FROM table_name
+WHERE condition;
+
+----------------------------------
+INSERT INTO table_name (column1, column2, column3)
+VALUES (value1, value2, value3);
+-------------------------------------
+DELETE FROM table_name
+WHERE condition;
+---------------------------------------
+DELETE FROM employees
+WHERE employee_id = 2;
+----------------------------------------
+DROP TABLE table_name;
+------------------------------------------
+
+
+
+
